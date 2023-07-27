@@ -1,0 +1,25 @@
+
+
+   /* Header.css */
+/* Header.css */
+/* Header.css */
+.header {
+    background-color: #2a9df4;; /* Light blue background color */
+    color: #ffffff; /* White text color */
+    padding: 3rem;
+  }
+  
+  .header-cards-container {
+    margin-bottom: 20px; /* Add space between cards and MegaMenu */
+    overflow-x: auto; /* Allow horizontal scrolling if cards exceed the container width */
+  }
+  
+  .slick-list {
+    overflow: initial !important; /* Override the default hidden overflow for the slider */
+  }
+  
+  .mega-menu {
+    /* Add space between MegaMenu and cards */
+    margin-top: 10px;
+  }
+  

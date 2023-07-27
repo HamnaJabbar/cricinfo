@@ -1,0 +1,68 @@
+/* MegaMenu.css */
+.mega-menu {
+    background-color: #2a9df4; /* Background color for the mega-menu */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding for the mega-menu */
+    position: relative; /* Add position relative to create stacking context for absolute positioning */
+  }
+  
+  .menu-list {
+    list-style: none; /* Remove bullet points from the menu items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    display: inline-block; /* Display menu items horizontally */
+    margin-right: 20px; /* Add some space between menu items */
+  }
+  
+  .menu-item a {
+    text-decoration: none; /* Remove underline from the anchor tags */
+    color: #fff; /* Text color for menu item links */
+    font-weight: bold; /* Make the links bold */
+  }
+  
+  .menu-item a:hover {
+    text-decoration: underline; /* Underline the links on hover */
+  }
+  
+  .mega-menu-content {
+    display: none; /* Hide the mega-menu content by default */
+    position: absolute; /* Position the mega-menu content */
+    top: 50px; /* Adjust the top position as needed */
+    left: 0; /* Align the mega-menu content with the left edge of the mega-menu */
+    background-color: #444; /* Background color for the mega-menu content */
+    padding: 10px; /* Padding for the mega-menu content */
+    border-radius: 5px; /* Add rounded corners to the mega-menu content */
+  }
+  
+  .menu-item:hover .mega-menu-content {
+    display: block; /* Show the mega-menu content on hover */
+  }
+  
+  .menu-item.search-icon form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item.search-icon input {
+    width: 120px; /* Adjust the width of the search input as needed */
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .menu-item.search-icon button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
