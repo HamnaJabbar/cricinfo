@@ -10,7 +10,7 @@ const MegaMenu = () => {
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-    // Handle search functionality here (e.g., redirect to search results page)
+    
     console.log('Search submitted:', searchText);
     setSearchText('');
   };
@@ -19,7 +19,7 @@ const MegaMenu = () => {
     <nav className="mega-menu">
       <ul className="menu-list">
         <li className="menu-item">
-          <a href="https://www.espncricinfo.com/cricket-videos">espnCricinfo</a>
+          <a href="https://www.espncricinfo.com/cricket-videos">espncricinfo</a>
         </li>
         <li className="menu-item">
           <a href="https://www.espncricinfo.com/live-cricket-score">Live Scores</a>

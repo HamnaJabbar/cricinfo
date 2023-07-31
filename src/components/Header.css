@@ -1,25 +1,52 @@
 
-
-   /* Header.css */
-/* Header.css */
 /* Header.css */
 .header {
-    background-color: #2a9df4;; /* Light blue background color */
-    color: #ffffff; /* White text color */
-    padding: 3rem;
-  }
+  background-color: #2a9df4;
+  color: #ffffff;
   
-  .header-cards-container {
-    margin-bottom: 20px; /* Add space between cards and MegaMenu */
-    overflow-x: auto; /* Allow horizontal scrolling if cards exceed the container width */
-  }
+  padding: 3rem;
+  margin-top: -2rem;
+  margin-left: 0; 
+  margin-right: 0;
+  height:130px;
+  
+
+  
+}
+
+
+.header-cards-container {
+  margin-bottom: 20px; /* Add space between cards and MegaMenu */
+  overflow-x: auto; /* Allow horizontal scrolling if cards exceed the container width */
+  margin: -8px 140px 50px 140px; /* Move the container 10 pixels up and add 20px margin from right and left */
+}
+
   
   .slick-list {
     overflow: initial !important; /* Override the default hidden overflow for the slider */
   }
   
-  .mega-menu {
-    /* Add space between MegaMenu and cards */
-    margin-top: 10px;
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .header-links {
+    display: flex;
+    justify-content: flex-start; /* Align links to the left */
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 250px; 
+  }
+  
+  .header-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+    
+  }
+  
+  
   

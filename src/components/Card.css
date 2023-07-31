@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 25%;
+  height: 250px;
+}
+
+.card2 {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%; 
+  height: 250px; 
+}
+
+

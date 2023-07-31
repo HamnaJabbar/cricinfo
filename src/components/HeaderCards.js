@@ -7,6 +7,7 @@ const HeaderCard = ({ match }) => {
       <h3>{match.team1} vs {match.team2}</h3>
       <p>Timings: {match.timings}</p>
       <p>Type: {match.type}</p>
+      <p>Runs: {match.type}</p>
     </div>
   );
 };

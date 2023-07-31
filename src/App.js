@@ -1,100 +1,19 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import Header from './components/Header';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <Header />
-//       {/* Add the rest of your content here */}
-//     </div>
-//   );
-// };
-
-// export default App;
-
-// import React from 'react';
-// import Header from './components/Header';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <Header />
-//       {/* Add the rest of your content here */}
-//     </div>
-//   );
-// };
-
-// export default App;
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import Header from './components/Header';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <Header />
-//     </div>
-//   );
-// };
-
-// export default App;
-
-
-
-
 
 import React from 'react';
 import Header from './components/Header';
+import ImageCarousel from './components/Carousel';
+import AdditionalCards from './components/AdditionalCards'; 
+import MegaMenu from './components/MegaMenu'; 
+
+import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Header />
-      {/* Add the rest of your content here */}
+      <MegaMenu /> 
+      <ImageCarousel />
+      <AdditionalCards /> 
     </div>
   );
 };

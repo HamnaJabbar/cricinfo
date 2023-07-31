@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Add any global styles and reset as needed */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the container that holds the cards */
+  .card-container {
+    display: flex;
+    overflow-x: hidden; /* Hide the overflowing cards */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+    padding: 20px;
+  }
+  
+  /* Styling for each card */
+  .card {
+    flex: 0 0 250px;
+    height: 100px;
+    margin-right: 10px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    color: black;
+    transition: transform 0.3s ease; /* Add smooth transition for the movement */
+  }
+  
+  /*  hover effect to the cards */
+  .card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* a circle icon for scrolling left */
+  .scroll-icon-left,
+  .scroll-icon-right {
+    position: fixed;
+    bottom: 30px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .scroll-icon-left {
+    left: 30px;
+  }
+  
+  .scroll-icon-right {
+    right: 30px;
+  }
+  
